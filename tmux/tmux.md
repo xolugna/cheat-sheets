@@ -10,7 +10,7 @@
 
 
 
-## With Prefix  (C + b)  
+## With Prefix  (Ctrl + b)  
 
 ### Windows
 
