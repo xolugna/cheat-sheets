@@ -1,0 +1,41 @@
+{
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "aws.profile": "profile:default",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.minimap.enabled": false,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-c>": false,
+    "<C-x>": false,
+    "<C-v>": false,
+    "<C-b>": false
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<C-Up>"],
+      "after": ["<C-b>"]
+    },
+    {
+      "before": ["<C-Down>"],
+      "after": ["<C-f>"]
+    },
+    {
+      "before": ["<C-space>"],
+      "after": ["<C-v>"]
+    }
+  ],
+  "editor.formatOnSave": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
